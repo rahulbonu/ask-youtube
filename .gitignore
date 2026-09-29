@@ -1,0 +1,24 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Caches produced at runtime
+.cache/
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Environments
+venv/
+.venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
